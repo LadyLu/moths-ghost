@@ -16,7 +16,11 @@ client.on('message', message => {
 
   if (message.content.includes("brackenfall")) {
     message.channel.send("Where is that deputy of mine?");
-  } 
+  } else
+      
+  if (message.content === 'm_love') {
+      message.reply('Ah... Yes.. *pat pat* You are a... Noble warrior? Yes, noble.');
+  }
 
  
 });
