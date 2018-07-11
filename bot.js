@@ -22,9 +22,15 @@ client.on('message', message => {
       message.reply('Ah... Yes.. *pat pat* You are a... Noble warrior? Yes, noble.');
   } else
       
-  if (message.content === 'm_love ${user}') {
-      message.channel.send('Ah... Yes.. ${user} *pat pat* You are a... Noble warrior? Yes, noble.');
+  if (message.content === 'm_love <@!user_id>') {
+      message.channel.send('Ah... Yes.. <@!user_id> *pat pat* You are a... Noble warrior? Yes, noble.');
   }
+    
+    const swearWords = ["darn", "shucks", "frak", "hecc"];
+if( swearWords.some(word => message.content.includes(word)) ) {
+  message.reply("How dare you speak such language in my glorious presence?");
+  // Or just do message.delete();
+}
 
  
 });
