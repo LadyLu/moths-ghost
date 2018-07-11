@@ -22,8 +22,8 @@ client.on('message', message => {
       message.reply('Ah... Yes.. *pat pat* You are a... Noble warrior? Yes, noble.');
   } else
       
-  if (message.content === 'm_love <@USER_ID>') {
-      message.channel.send('Ah... Yes.. <@USER_ID> *pat pat* You are a... Noble warrior? Yes, noble.');
+  if (message.content === 'm_love ${user}') {
+      message.channel.send('Ah... Yes.. ${user} *pat pat* You are a... Noble warrior? Yes, noble.');
   }
 
  
