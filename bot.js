@@ -16,7 +16,7 @@ client.on('message', message => {
 
   if (message.content.includes("brackenfall")) {
     message.channel.send("Where is that deputy of mine?");
-  } else
+  } 
 
   
   }
