@@ -10,7 +10,7 @@ client.on('message', message => {
     	message.channel.send("YOU DARE CHALLENGE THE ALMIGHTY MOTHSTAR?!");
   	} else
 
-  if (message.content.startsWith("hellkits")) {
+  if (message.content.includes("hellkits")) {
     message.channel.send("Ah, the devilish spawn of Bracken and Bear. Not even I will look down upon such kits.");
   } 
 });
