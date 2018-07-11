@@ -18,24 +18,7 @@ client.on('message', message => {
     message.channel.send("Where is that deputy of mine?");
   } else
 
-  if (message.content.includes("Brackenfall")) {
-    message.channel.send("Where is that deputy of mine?");
-  } else
-
-  if (message.content.includes("bracken")) {
-    message.channel.send("Where is that deputy of mine?");
-  } else
-
-  if (message.content.includes("Bracken")) {
-    message.channel.send("Where is that deputy of mine?");
-  }  else
-
-  if (message.content.includes("brackenstar")) {
-    message.channel.send("He is now a leader, eh? Better not turn my clan into carrion.");
-  } else
-
-  if (message.content.includes("Brackenstar")) {
-    message.channel.send("He is now a leader, eh? Better not turn my clan into carrion.");
+  
   }
 });
 
