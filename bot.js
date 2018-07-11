@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content.startsWith === 'fight') {
-    	message.channel.send('YOU DARE CHALLENGE THE ALMIGHTY MOTHSTAR?!');
+    if (message.content.startsWith("fight")) {
+    	message.channel.send("YOU DARE CHALLENGE THE ALMIGHTY MOTHSTAR?!");
   	} else
 
   if (message.content.startsWith("hellkits")) {
