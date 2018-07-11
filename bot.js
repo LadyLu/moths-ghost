@@ -20,6 +20,10 @@ client.on('message', message => {
       
   if (message.content === 'm_love') {
       message.reply('Ah... Yes.. *pat pat* You are a... Noble warrior? Yes, noble.');
+  } else
+      
+  if (message.content === 'm_love <@UserID>') {
+      message.channel.send('Ah... Yes.. <@UserID> *pat pat* You are a... Noble warrior? Yes, noble.');
   }
 
  
