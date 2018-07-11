@@ -18,8 +18,7 @@ client.on('message', message => {
     message.channel.send("Where is that deputy of mine?");
   } 
 
-  
-  }
+ 
 });
 
 // THIS  MUST  BE  THIS  WAY
