@@ -10,8 +10,9 @@ client.on('message', message => {
     	message.reply('YOU DARE CHALLENGE THE ALMIGHTY MOTHSTAR?!');
   	} else
 
+def on_message(self, message):
   if "Bracken" in message: {
-    message.channel.send("That deputy would be nothing without my glory!");
+            self.send("That deputy would be nothing without my almighty glory!");
   }
 });
 
